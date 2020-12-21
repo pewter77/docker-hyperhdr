@@ -1,4 +1,4 @@
-# Docker-hyper-hdr
+# docker-hyperdr
 
 ## Overview
 Uses [Awawa's HDR edit for hyperion-ng](https://github.com/awawa-dev/HyperHDR/releases) to create docker image
