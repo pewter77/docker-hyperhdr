@@ -13,7 +13,7 @@ RUN \
  echo "**** install packages ****" && \
  apt-get update && \
  apt-get install -y --no-install-recommends \
-            wget libusb-1.0-0 libexpat1 libglu1-mesa libglib2.0-0 libfreetype6 && \
+            wget xz-utils libusb-1.0-0 libexpat1 libglu1-mesa libglib2.0-0 libfreetype6 && \
  echo "**** install HyperHDR ****" && \
  wget -O /tmp/hyperhdr.deb ${HYPERHDR_URL}/v${HYPERHDR_VERSION}/HyperHDR-${HYPERHDR_VERSION}-Linux-${ARCH}.deb && \
  apt install -y ./tmp/hyperhdr.deb && \
