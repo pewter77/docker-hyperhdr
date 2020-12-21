@@ -5,9 +5,9 @@ ARG HYPERHDR_URL="https://github.com/awawa-dev/HyperHDR/releases/download"
 ARG HYPERHDR_VERSION="12.1.0.0"
 ARG ARCH="x86_64"
 
-RUN sed -i "s/archive.ubuntu./mirrors.aliyun./g" /etc/apt/sources.list
-RUN sed -i "s/deb.debian.org/mirrors.aliyun.com/g" /etc/apt/sources.list
-RUN sed -i "s/security.debian.org/mirrors.aliyun.com\/debian-security/g" /etc/apt/sources.list
+#RUN sed -i "s/archive.ubuntu./mirrors.aliyun./g" /etc/apt/sources.list
+#RUN sed -i "s/deb.debian.org/mirrors.aliyun.com/g" /etc/apt/sources.list
+#RUN sed -i "s/security.debian.org/mirrors.aliyun.com\/debian-security/g" /etc/apt/sources.list
 
 RUN \
  echo "**** install packages ****" && \
