@@ -2,7 +2,7 @@ FROM lsiobase/ubuntu:focal
 
 ARG DEBIAN_FRONTEND="noninteractive"
 ARG HYPERHDR_URL="https://github.com/awawa-dev/HyperHDR/releases/download"
-ARG HYPERHDR_VERSION="12.1.0.0"
+ARG HYPERHDR_VERSION="14.0.0.0"
 ARG ARCH="armv7l"
 
 #RUN sed -i "s/archive.ubuntu./mirrors.aliyun./g" /etc/apt/sources.list
