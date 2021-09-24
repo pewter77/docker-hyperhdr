@@ -3,8 +3,6 @@
 ## Overview
 Uses [Awawa's HDR edit for hyperion-ng](https://github.com/awawa-dev/HyperHDR/releases) to create docker image
 
-This docker image is x86-64 ONLY right now!
-
 Requires host OS to have drivers (DVB or otherwise) to pick up the device and share it to docker, it has been tested and working on Unraid with 6.9 rc2 w/ DVB plugins using openelec drivers and a USB grabber. Others most likely won't be tested right now.
 
 Possible future (because it's already working for me and not sure if I want to go further)
